@@ -1,0 +1,217 @@
+@import url(/css/reset.css);
+
+/* GLOBAL STYLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #F5F5F5;
+  color: #161616;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  line-height: 22px;
+  color: #161616;
+}
+
+/* HEADER */
+.header {
+  background: #81A36B;
+  padding: 25px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info a {
+  text-decoration: none;
+  color: #161616;
+}
+
+/*MAIN AMELIA*/
+
+main {
+  background-color: #d8d8d6;
+}
+
+.ameliaContent {
+  margin-top: 65px;
+  margin-bottom: 40px;
+  line-height: 141.06%;
+}
+
+.ameliaFlex {
+  display: flex;
+  align-items: center;
+}
+
+.order {
+  width: 190px;
+  height: 60px;
+  margin-right: 50px;
+  border: 1px solid #81a36b;
+  background: #81a36b;
+  color: #161616;
+  border-radius: 2px;
+  line-height: 21px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.help {
+  width: 190px;
+  height: 60px;
+  border: 1px solid #81a36b;
+  color: #161616;
+  border-radius: 4px;
+  line-height: 21px;
+  background: transparent;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*О НАС*/
+
+.about {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.textAbout {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  line-height: 30px;
+}
+
+.textAbout p {
+  width: 550px;
+}
+
+/* PRICE */
+.price {
+  background: #81A36B;
+  padding: 80px 0;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.aboutUsIcons {
+    background-color: #81a36b;
+}
+
+.ulIcons {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulIcons li {
+    text-align: center;
+}
+
+.ulIcons li p {
+    padding-top: 15px;
+}
+
+
+
+/*  Как мы работаем */
+
+.workFlex {
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.workText {
+    margin-left: 30px;
+}
+
+.ameliaContent {
+    margin-top: 60px;
+    line-height: 164.06%;
+}
+
+/* Наши Работы*/
+
+.flowersH {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.flowersImages {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+
+.flowersImages p {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.flowersImages div {
+    background-color: #81a36b;
+    width: 350px;
+    padding: 15px 15px 93px 15px;
+}
+
+
+/* FOOTER */
+.footer {
+  background: #81A36B;
+  padding: 60px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.flex-container h3 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-contact a {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-contact ul > li + li {
+  margin-top: 20px;
+}
+
+.footer-year {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
